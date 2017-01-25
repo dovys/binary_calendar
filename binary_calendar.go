@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// Storing the calendar as a map. uint32 represents a single month, int16 - the year.
 type BinaryCalendar struct {
 	marked map[int16][]uint32
 }
